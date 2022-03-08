@@ -1,0 +1,8 @@
+.recado {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #24A61F;
+    font-size: .7em;
+}
