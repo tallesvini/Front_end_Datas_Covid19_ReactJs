@@ -1,0 +1,194 @@
+.container {
+    display: grid;
+    box-shadow: 5px 5px 10px #e6e6e6;
+    grid-template-columns: 50% 50%;
+    margin: 0 10%;
+    margin-top: 5vh;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: solid 1px #24A61F;
+    border-radius: 10px 0 0 10px;
+}
+
+.dados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, #24A61F, #38F244);
+    background-color: #24A61F;
+    border-radius: 0 10px 10px 0;
+}
+
+.geral h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #487F3D;
+    font-size: 1.7em;
+    margin-top: 5vh;
+}
+
+.box input {
+    outline: none;
+    text-transform: lowercase;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #348C1C;
+    border: solid 1px #487F3D;
+    width: 15%;
+    height: 7vh;
+    font-size: 1.3em;
+    border-radius: 3px;
+}
+
+.box h3 {
+    color: #487F3D;
+    padding: 4vh 0 4vh 0;
+}
+
+.estados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #325c2b;
+    background-color: #FFFFFF;
+    width: 60%;
+    height: 15%;
+    font-size: .8em;
+    padding-left: 1vw;
+    border-radius: 7px;
+}
+
+.estados h3, p {
+    padding-left: 8px;
+}
+
+.casos {
+    background-color: #FFFFFF;
+    color: #348C1C;
+    width: 60%;
+    height: 40%;
+    margin-top: 5vh;
+    border-radius: 7px;
+}
+
+.casos,
+.mortes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.casos p, h3 {
+    padding-top: 10px;
+}
+
+.casos h3 {
+    color: #325c2b;
+}
+
+.estados:hover,
+.casos:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: solid 1px #348C1C;
+    transition: ease-in-out .5s;
+    color: #24A61F;
+}
+
+.mortes {
+    background-color: #FFFFFF;
+    color: #348C1C;
+    width: 60%;
+    height: 18%;
+    font-size: 1.2em;
+    margin-top: 5vh;
+    border-radius: 7px;
+}
+
+.mortes h3 {
+    color: #325c2b;
+    padding-bottom:5px;
+}
+
+.mortes:hover {
+    transition: ease-in-out .5s;
+    box-shadow: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: solid 1px #CD1224;
+    color: #E43A4A;
+}
+
+.mortes:hover h3 {
+    color: #CD1224;
+}
+
+/*responsividade 1*/
+@media (max-width: 810px) {
+    .estados h2, p {
+        font-size: 1.2em;
+    }
+
+    .casos {
+        margin-top: 2vh;
+    }
+
+    .casos h3 {
+        font-size: .7em;
+    }
+
+    .mortes h3, p {
+        font-size: .7em;
+        padding: 0;
+    }
+}
+
+/*responsividade mobile*/
+@media (max-width: 425px) {
+    .container {
+        grid-template-columns: 100%;
+    }
+
+    .geral h1 {
+        font-size: 1em;
+    }
+
+    .box {
+        border-radius: 12px 12px 0 0;
+    }
+
+    .dados {
+        border-radius: 0 0 12px 12px;
+    }
+
+    .estados {
+        margin-top: 5vh;
+        width: 80%;
+        height: 8vh;
+    }
+
+    .casos {
+        margin-top: 3vh;
+        width: 80%;
+        height: 60%;
+    }
+
+    .casos h3 {
+        font-size: 1em;
+    }
+
+    .mortes {
+        margin: 3vh 0 5vh;
+        width: 80%;
+        height: 12vh;
+    }
+}
