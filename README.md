@@ -5,6 +5,6 @@
 #### 📌 Nesse projeto foi utilizado o ReactJs.
 
 ## ⬇️ Sua forma ⬇️
-![img](https://user-images.githubusercontent.com/90796934/157283970-9301dd12-8eeb-414d-abd3-1104ecae7427.PNG)
+![covid](https://user-images.githubusercontent.com/90796934/157997776-5de66efe-2b3a-4cf8-a10e-2268a477d9bb.gif)
 
 #### ➡️ Caso alguma dúvida entre em contato pelo email: tallesvinicius.contato@gmail.com
