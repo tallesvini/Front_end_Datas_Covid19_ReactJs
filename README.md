@@ -1,4 +1,4 @@
-# ➡️ Coleta de dados sobre o covid-19 atravez de uma API. 
+# ➡️ Coleta de dados sobre o covid-19 atravez de uma API!
 
 ### ✅ O projeto foi bastante marcante pelo fato de estarmos vivendo esse período atual da Covid-19. Essa aplicação retorna dados nacionais atualizados relacionados à pandemia global. Foi utilizado uma API que a cada 24hrs atualiza seus dados em cada estado brasileiro, ademais, foi utilizado ReactJS.
 
